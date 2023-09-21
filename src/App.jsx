@@ -1,14 +1,12 @@
-import './App.css'
+import React from 'react';
+import ContactList from './components/ContactList';
 
-
-
+function App() {
+  return (
     <>
-      <div>
-
-      </div>
-
+      <ContactList />
     </>
-  
+  );
+}
 
-
-export default App
+export default App;
